@@ -69,9 +69,9 @@ def herstel_naar_origineel(map_pad, backup_bestand):
         print(f"Er is een fout opgetreden: {e}")
 
 def main():
-    map_pad = "C:\movie_posters\movie_posters"  # Map met afbeeldingen
-    uitvoer_bestand = "C:\\Git\\OpdrachtenP4\\Bestandsnamen\\gewijzigde_bestanden.txt"
-    backup_bestand = "C:\\Git\\OpdrachtenP4\\Bestandsnamen\\backup_bestanden.json"
+    map_pad = r"C:\\Users\\harms\\Downloads\\movie_posters\\movie_posters"  # Map met afbeeldingen
+    uitvoer_bestand = r"C:\\Users\\harms\\Downloads\\movie_posters\\movie_posters\\gewijzigde_bestanden.txt"
+    backup_bestand = r"C:\\Users\\harms\\Downloads\\movie_posters\\movie_posters\\backup_bestanden.json"
 
     print("Kies een optie:")
     print("1. Verander bestandsnamen naar 'movie_poster_xx'")
@@ -87,3 +87,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
